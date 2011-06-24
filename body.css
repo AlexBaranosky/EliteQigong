@@ -1,0 +1,22 @@
+@charset "utf-8";
+body {
+	background-image: url(bodybg.jpg);
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	color: #FF0;
+	font-family: "Book Antiqua";
+	line-height: 7mm;
+	font-size: 18px;
+	font-style: italic;
+}
+
+table {
+	background-image: url(tablebg.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

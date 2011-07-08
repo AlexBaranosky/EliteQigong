@@ -1,54 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>Results</title>
-<link href="css.css" rel="stylesheet" type="text/css" />
-</head>
+<?php
+include_once('mustache.php');
+include_once('main_template.php');
 
-<body>
-
-<table width="100%"  cellspacing="0" cellpadding="0" border="0">
-  <tr>
-    <td><div style="background-image:url(images/head_left.jpg); background-repeat:no-repeat; background-position:right; height:246px"></div></td>
-    <td><div style="background-image:url(images/head_right.jpg); background-repeat:no-repeat; background-position:left; height:246px"></div></td>
-  </tr>
-</table>
-
-<table width="1260" border="0" cellspacing="5" cellpadding="0" align="center">
-      <tr>
-        <td colspan="6"><img src="images/space.gif" /></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="home.html"><img src="images/home.gif" alt="Home" border="0" title="Home"/></a></td>
-        <td align="left"><a href="shaolin.html"><img src="images/shaolin.gif" alt="Shaolin" border="0" title="Shaolin"/></a></td>
-        <td align="left"><a href="results.html"><img src="images/results.gif" alt="Results" border="0" title="Results"/></a></td>
-        <td align="left"><a href="instruction.html"><img src="images/instruction.gif" alt="Instruction" border="0" title="Instruction"/></a></td>
-        <td align="left"><a href="faq.html"><img src="images/faq.gif" alt="FAQ" border="0" title="FAQ"/></a></td>
-        <td align="left"><a href="announcements.html"><img src="images/announcements.gif" title="Announcements" alt="Announcements" border="0" /></a></td>
-        <td align="left"><a href="contact.html"><img src="images/contact.gif" alt="Contact" border="0" title="Contact"/></a></td>
-      </tr>
-      <tr>
-        <td colspan="6"><img src="images/space.gif" height="30" /></td>
-      </tr>
-      <tr>
-        <td align="left"><a href="chikung.html"><img src="images/chikung.gif" alt="Chi Kung" border="0" title="Chi Kung"/></a></td>
-        <td align="left"><a href="zen.html"><img src="images/zen.gif" alt="Zen" border="0" title="Zen" /></a></td>
-        <td align="left"><a href="master.html"><img src="images/master.gif" alt="Master" border="0" title="Master" /></a></td>
-        <td align="left"><a href="chitherapy.html"><img src="images/chitherapy.gif" alt="Chi Therapy" border="0" title="Chi Therapy" /></a></td>
-        <td align="left"><a href="books.html"><img src="images/books.gif" alt="Books" border="0" title="Books" /></a></td>
-        <td align="left"><a href="more_info.html"><img src="images/more_info.gif" alt="More Info" border="0" title="More Info" /></a></td>
-        <td align="left"><a href="other_info.html"><img src="images/other.gif" alt="Other" border="0" title="Other" /></a></td>
-      </tr>
-    </table>
-	
-	<div class="content"><div class="welcome">Results</div>
+$dataForTemplate = array(
+	'title' => "Results",
+	'content' => <<<END
+<div class="welcome">Results</div>
       <p><br/>
         
         Shaolin Chi Kung has been treasured and practiced for over one thousand years because it gets real, beneficial results.  The results of practicing Shaolin Arts are legendary in the history and literature of China.  I've included recent comments from some of my students to give the reader some perspective on the breadth and depth of the many benefits that are relevant to people today and how obtainable they are with proper instruction.  If you are interested I would encourage you to do internet searches on the results of scientific, medical and peer reviewed studies of the results of Chi Kung (Qigong) practice.  There are many available and I'm made aware of more and more each week as some people alert me to them.  Doing one's own research may provide greater encouragement for those who need it.  Please note that most of my students don't come to me because of scientific research but from personal referral from my other students whom they know. <br/><br/>
-        
-        
-        
+                       
         Over the last couple of years I had noticed that my fingers on both hands were becoming stiff and did not easily bend. They also were frequently tingling. After practicing Chi Kung after learning from you only months ago, it only took a few days before I no longer had any difficulty bending my fingers.  The stiffness and tingling were totally gone!  Jennifer, Sitka, AK  <br/><br/>
         
         I just can't tell you how happy I am to have learned Chi Kung from you.  I've suffered from Rheumatoid Arthritis and Glaucoma.  Since practicing as I've learned from you one year ago, I no longer suffer symptoms of Rheumatoid Arthritis.  However, I noticed that if I don't practice for even 2 days that the pain and swelling will return.  The solution is simple, do my daily practice and prevent the symptoms from returning.   Also, my doctor has informed me that the pressure in my eyes has returned to optimum.  I knew they were better before he confirmed that.  I notice that my eyes look brighter and healthier.  I'm so grateful. Alice, Sitka, AK <br/><br/>
@@ -284,6 +245,9 @@
         <br/>
         -Lillian, Long Beach, CA <br/><br/>
       </p>
-</div>
-</body>
-</html>
+END
+);
+
+$m = new Mustache;
+echo $m->render($main_template, $dataForTemplate);
+?>

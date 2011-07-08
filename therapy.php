@@ -1,15 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Therapy</title>
-<link href="../body.css" rel="stylesheet" type="text/css" />
-</head>
+<?php
+include_once('mustache.php');
+include_once('main_template.php');
 
-<body>
-<table width="1280" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td><p align="center"><strong><em>Chi Therapy</em></strong><br />
+$dataForTemplate = array(
+	'title' => "Therapy",
+	'content' => <<<END
+<p align="center"><strong><em>Chi Therapy</em></strong><br />
       <em>Hope  for those with severe and chronic health conditions! </em><br />
       </p>
       <p align="center">Chi Therapy is an ancient health recovery therapy proven over thousands of  years that emphasizes using energy (Chi) to help a participant recover from  illness in a rapid and effective manner. The therapy utilizes the Chinese  Medical Paradigm which emphasizes the restoration of a smooth flow of energy in  a person to achieve health.Â  Specifically  the energy blockages that are causing the participantâ?Ts illness are removed and  a healthy energy flow is restored.Â  The  therapist will open the participantâ?Ts relevant energy points then transmit and  promote energy (<strong>Chi</strong>) flow throughout the body and specific area(s). The participantâ?Ts  treatment will be accompanied by a specific and tailored prescription of follow  up Chi Kung exercises to enhance and assist the recovery.Â  The benefits and results are remarkable. <br />
@@ -58,8 +54,10 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p></td>
-  </tr>
-</table>
-</body>
-</html>
+    <p>&nbsp;</p>
+END
+);
+
+$m = new Mustache;
+echo $m->render($main_template, $dataForTemplate);
+?>

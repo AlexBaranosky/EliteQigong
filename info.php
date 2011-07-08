@@ -1,15 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Ten Shaolin Laws</title>
-<link href="../body.css" rel="stylesheet" type="text/css" />
-</head>
+<?php
+include_once('mustache.php');
+include_once('main_template.php');
 
-<body>
-<table width="1280" border="0" align="center" cellpadding="0" cellspacing="0">
-  <tr>
-    <td><p><strong>TEN  SHAOLIN LAWS</strong> <br />
+$dataForTemplate = array(
+	'title' => "Ten Shaolin Laws",
+	'content' => <<<END
+<p><strong>TEN  SHAOLIN LAWS</strong> <br />
         <strong><br />
         </strong>The Ten Shaolin Laws are very important and  shouldnâ?Tt be ignored by practitioners of our very special art.Â  The Laws were compiled and combined by my  teacher from wisdom passed down to him from previous masters and texts on  Shaolin Arts to make it a short and easy reference of important  principles.Â  These principles have proven  to be important to adhere to in order to get not only the best results from  practice but to help students avoid problems as well.Â  </p>
       <p>The Ten Shaolin Laws are  non-religious, and transcend all cultures and races, i.e. people of any culture  and race would agree that they promote values that are worthy and desirable.  Laws, in the Shaolin tradition, are not meant to be punitive or restrictive,  but as practical means to help followers achieve set aims and objectives; in  this case to help them attain the best possible results in practicing Shaolin  Chi Kung for health, joyful living, mind expansion and spiritual fulfillment. <br />
@@ -51,8 +47,10 @@
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p></td>
-  </tr>
-</table>
-</body>
-</html>
+    <p>&nbsp;</p> 
+END
+);
+
+$m = new Mustache;
+echo $m->render($main_template, $dataForTemplate);
+?>

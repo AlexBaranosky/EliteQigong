@@ -32,6 +32,77 @@ $dataForTemplate = array(
       <td><input name="state" id="state" size="35" type="text"></td>
     </tr>
     <tr>
+    <td><div align="right"><strong>Zip Code: </strong></div></td>
+      <td><input name="zip" id="zip" size="35" type="text"></td>
+    </tr>
+<tr>
+      <tr>
+      <td><div align="right"><strong>Home #: </strong></div></td>
+      <td><input name="home_phone" id="home_phone" size="35" type="text"></td>
+      </tr>
+      <tr>
+      <td><div align="right"><strong>Cell #: </strong></div></td>
+      <td><input name="cell_phone" id="cell_phone" size="35" type="text"></td>
+      </tr>
+      <tr>
+      <td><div align="right"><strong>Work #: </strong></div></td>
+      <td><input name="work_phone" id="work_phone" size="35" type="text"></td>
+      </tr>
+</tr>
+    <tr>
+      <td><div align="right"><strong>Email: </strong></div></td>
+      <td><input name="email" id="email" size="35" type="text"></td>
+    </tr>
+    <tr>
+      <td><div align="right"><strong>Age: </strong></div></td>
+      <td><input name="age" id="age" size="35" type="text"></td>
+    </tr>
+    <tr>
+      <td><div align="right"><strong>Occupation: </strong></div></td>
+      <td><input name="occupation" id="occupation" size="35" type="text"></td>
+    </tr>
+    <tr>
+      <td><div align="right"><strong>Employer: </strong></div></td>
+      <td><input name="employer" id="employer" size="35" type="text"></td>
+    </tr>
+    <tr>
+    <td><div align="right"><strong>Please list any health problems you may have: </strong></div></td>
+    <td><textarea name="health" cols="45" rows="8" id="health"></textarea></td>
+    </tr>
+    <tr>
+      <td class="alt"><div align="right"><strong>Do you have a heart condition?   Y/N?  If yes please explain: </strong></div></td>
+      <td><textarea name="heart" cols="45" rows="8" id="heart"></textarea></td>
+    </tr>
+    <tr>
+      <td><div align="right"><strong>Have you had any operations in the past 5 years?  Y/N?  If yes, please list here: </strong></div></td>
+      <td><textarea name="operations" cols="45" rows="8" id="operations"></textarea></td>
+    </tr>
+    <tr>
+      <td class="alt"><div align="right"><strong>Has your doctor warned you about any physical activity due to any conditions? 	Y/N? If yes, please explain: </strong></div></td>
+      <td><textarea name="doctor" cols="45" rows="8" id="doctor"></textarea></td>
+    </tr>
+    <tr>
+      <td><div align="right"><strong>Have you ever practiced an energy art like Chi Kung, Yoga or any other?  Y/N?  If yes, please list what and when: </strong></div></td>
+      <td><textarea name="practiced" cols="45" rows="8" id="practiced"></textarea></td>
+    </tr>
+    <tr>
+      <td class="alt"><div align="right"><strong>What are your expectations for taking a Chi Kung course?(Please indicate <u>which course</u> <u>and date</u> you are applying for): </strong></div></td>
+      <td><textarea name="expectations" cols="45" rows="8" id="expectations"></textarea></td>
+    </tr>
+    <tr>
+      <td><div align="right"><strong>How did you hear about this course?: </strong></div></td>
+      <td><textarea name="hear_about" cols="45" rows="8" id="hear_about"></textarea></td>
+    </tr>
+    <tr>
+<tr>
+	<td></td>
+    <td><p>
+      <input name="application" class="bg_keyboard" id="application" value="Submit Course Application" type="submit">
+    </p>
+      <p>All information gathered will only be used to evaluate applicant&quot;s suitability for Elite Chi Kung services and will not be shared with anyone outside of Elite Chi Kung</p></td>
+</tr>
+  </tr></tbody></table>
+</form>
 	<div class="third last">
         <!--
            	<div class="centeredBordered">

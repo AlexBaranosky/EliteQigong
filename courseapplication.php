@@ -12,7 +12,7 @@ $dataForTemplate = array(
 <input name="recipient" value="info@elitechikung.com" type="hidden">
 <input name="subject" value="Elitechikung.com - Course Application Form Submission" type="hidden">
 <input name="redirect" value="http://www.elitechikung.com/thankyou.html" type="hidden">
-<table border="0" cellpadding="15" width="80%">
+<table border="0" cellpadding="12" width="80%">
 <tbody><tr>
 <td width="50%"><div align="right"><strong>Full Name: </strong></div></td>
 <td width="50%"><label>

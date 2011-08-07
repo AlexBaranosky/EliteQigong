@@ -5,7 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Results",
 	'content' => <<<END
-<div class="welcome">Results</div>
+<div id="welcome">Results</div>
       <p><br/>
         
         Shaolin Chi Kung has been treasured and practiced for over one thousand years because it gets real, beneficial results.  The results of practicing Shaolin Arts are legendary in the history and literature of China.  I've included recent comments from some of my students to give the reader some perspective on the breadth and depth of the many benefits that are relevant to people today and how obtainable they are with proper instruction.  If you are interested I would encourage you to do internet searches on the results of scientific, medical and peer reviewed studies of the results of Chi Kung (Qigong) practice.  There are many available and I'm made aware of more and more each week as some people alert me to them.  Doing one's own research may provide greater encouragement for those who need it.  Please note that most of my students don't come to me because of scientific research but from personal referral from my other students whom they know. <br/><br/>

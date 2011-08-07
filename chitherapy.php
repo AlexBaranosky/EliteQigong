@@ -5,7 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Chi Therapy",
 	'content' => <<<END
-<div class="welcome">Chi Therapy</div>
+<div id="welcome">Chi Therapy</div>
 <div align="center">
     <h4>A self-healing system that gives hope for those with severe and chronic health conditions!</h4>
       

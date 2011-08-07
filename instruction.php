@@ -5,7 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Instruction",
 	'content' => <<<END
-<div class="welcome">Instruction</div>
+<div id="welcome">Instruction</div>
       <p><br/>
         Instruction is provided in seminars for special groups and private lessons to individuals.  <br/><br/>
                 

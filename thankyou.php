@@ -5,7 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Elite Shaolin",
 	'content' => <<<END
-<div class="welcome">Thank you!</div><br/>
+<div id="welcome">Thank you!</div><br/>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>

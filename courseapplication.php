@@ -5,7 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Course Application",
 	'content' => <<<END
-<div class="welcome">Course Application Form</div>
+<div id="welcome">Course Application Form</div>
 
 <form class="inputform" name="form2" method="post" action="/cgi-sys/formmail.pl">
 

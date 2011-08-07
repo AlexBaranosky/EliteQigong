@@ -5,7 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => FAQ,
 	'content' => <<<END
-<div class="welcome">FAQ</div>
+<div id="welcome">FAQ</div>
     <br />
     <strong>Q:</strong> How can Shaolin Wahnam Chi Kung help me?<br/>
     <strong>A:</strong> We help you overcome any health problem and restore joy and energy to your life!<br /><br />

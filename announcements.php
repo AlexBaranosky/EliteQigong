@@ -6,7 +6,6 @@ $dataForTemplate = array(
 	'title' => "Announcements",
 	'content' => <<<END
 <div id="welcome">Announcements</div>
-   <div style="height: 300px;"></div>
 END
 );
 

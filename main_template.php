@@ -18,10 +18,7 @@ $main_template = <<<END
 </table>
 
   <table id="navigation" width="1260" cellspacing="5" cellpadding="0" align="center">
-      <tr>
-        <td colspan="6"><img src="images/space.gif" /></td>
-      </tr>
-      <tr>
+      <tr class="spacebelow">
         <td><a href="home.html"><img src="images/home.gif" alt="Home"/></a></td>
         <td><a href="shaolin.html"><img src="images/shaolin.gif" alt="Shaolin"/></a></td>
         <td><a href="results.html"><img src="images/results.gif" alt="Results"/></a></td>
@@ -29,9 +26,6 @@ $main_template = <<<END
         <td><a href="faq.html"><img src="images/faq.gif" alt="FAQ"/></a></td>
         <td><a href="announcements.html"><img src="images/announcements.gif" alt="Announcements" /></a></td>
         <td><a href="contact.html"><img src="images/contact.gif" alt="Contact"/></a></td>
-      </tr>
-      <tr>
-        <td colspan="6"><img src="images/space.gif" height="30" /></td>
       </tr>
       <tr>
         <td><a href="chikung.html"><img src="images/chikung.gif" alt="Chi Kung"/></a></td>

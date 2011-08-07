@@ -17,30 +17,30 @@ $main_template = <<<END
   </tr>
 </table>
 
-  <table width="1260" border="0" cellspacing="5" cellpadding="0" align="center">
+  <table id="navigation" width="1260" cellspacing="5" cellpadding="0" align="center">
       <tr>
         <td colspan="6"><img src="images/space.gif" /></td>
       </tr>
       <tr>
-        <td><a href="home.html"><img src="images/home.gif" alt="Home" border="0"/></a></td>
-        <td><a href="shaolin.html"><img src="images/shaolin.gif" alt="Shaolin" border="0"/></a></td>
-        <td><a href="results.html"><img src="images/results.gif" alt="Results" border="0"/></a></td>
-        <td><a href="instruction.html"><img src="images/instruction.gif" alt="Instruction" border="0"/></a></td>
-        <td><a href="faq.html"><img src="images/faq.gif" alt="FAQ" border="0"/></a></td>
-        <td><a href="announcements.html"><img src="images/announcements.gif" alt="Announcements" border="0" /></a></td>
-        <td><a href="contact.html"><img src="images/contact.gif" alt="Contact" border="0"/></a></td>
+        <td><a href="home.html"><img src="images/home.gif" alt="Home"/></a></td>
+        <td><a href="shaolin.html"><img src="images/shaolin.gif" alt="Shaolin"/></a></td>
+        <td><a href="results.html"><img src="images/results.gif" alt="Results"/></a></td>
+        <td><a href="instruction.html"><img src="images/instruction.gif" alt="Instruction"/></a></td>
+        <td><a href="faq.html"><img src="images/faq.gif" alt="FAQ"/></a></td>
+        <td><a href="announcements.html"><img src="images/announcements.gif" alt="Announcements" /></a></td>
+        <td><a href="contact.html"><img src="images/contact.gif" alt="Contact"/></a></td>
       </tr>
       <tr>
         <td colspan="6"><img src="images/space.gif" height="30" /></td>
       </tr>
       <tr>
-        <td><a href="chikung.html"><img src="images/chikung.gif" alt="Chi Kung" border="0"/></a></td>
-        <td><a href="zen.html"><img src="images/zen.gif" alt="Zen" border="0" /></a></td>
-        <td><a href="master.html"><img src="images/master.gif" alt="Master" border="0" /></a></td>
-        <td><a href="chitherapy.html"><img src="images/chitherapy.gif" alt="Chi Therapy" border="0" /></a></td>
-        <td><a href="books.html"><img src="images/books.gif" alt="Books" border="0" /></a></td>
-        <td><a href="more_info.html"><img src="images/more_info.gif" alt="More Info" border="0" /></a></td>
-        <td><a href="other_info.html"><img src="images/other.gif" alt="Other" border="0" /></a></td>
+        <td><a href="chikung.html"><img src="images/chikung.gif" alt="Chi Kung"/></a></td>
+        <td><a href="zen.html"><img src="images/zen.gif" alt="Zen" /></a></td>
+        <td><a href="master.html"><img src="images/master.gif" alt="Master" /></a></td>
+        <td><a href="chitherapy.html"><img src="images/chitherapy.gif" alt="Chi Therapy" /></a></td>
+        <td><a href="books.html"><img src="images/books.gif" alt="Books" /></a></td>
+        <td><a href="more_info.html"><img src="images/more_info.gif" alt="More Info" /></a></td>
+        <td><a href="other_info.html"><img src="images/other.gif" alt="Other" /></a></td>
       </tr>
     </table>
 

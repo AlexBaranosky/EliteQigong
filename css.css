@@ -39,3 +39,6 @@ a {
 td.leftcolumn {
     text-align: right;
 }
+#navigation img {
+    border: none;
+}

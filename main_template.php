@@ -44,8 +44,10 @@ $main_template = <<<END
       </tr>
     </table>
 
-    <div class="content">
-    	{{{content}}}
+    <div id="flower">
+        <div id="content">
+    	    {{{content}}}
+        </div>
     </div>
 </body>
 </html>

@@ -99,7 +99,7 @@ $dataForTemplate = array(
     <td><p>
       <input name="application" class="bg_keyboard" id="application" value="Submit Course Application" type="submit">
     </p>
-      <p>All information gathered will only be used to evaluate applicant&quot;s suitability for Elite Chi Kung services and will not be shared with anyone outside of Elite Chi Kung</p></td>
+      <p>All information gathered will only be used to evaluate applicant&rsquo;s suitability for Elite Chi Kung services and will not be shared with anyone outside of Elite Chi Kung</p></td>
 </tr>
   </tr></tbody></table>
 </form>

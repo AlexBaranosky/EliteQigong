@@ -16,7 +16,7 @@ $main_template = <<<END
         </tr>
     </table>
 
-    <table id="navigation" width="1260" cellspacing="5" cellpadding="0" align="center">
+    <table id="navigation" width="1260" cellspacing="5" align="center">
         <tr class="spacebelow">
             <td><a href="home.html"><img src="images/home.gif" alt="Home"/></a></td>
             <td><a href="shaolin.html"><img src="images/shaolin.gif" alt="Shaolin"/></a></td>

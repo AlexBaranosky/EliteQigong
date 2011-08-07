@@ -10,7 +10,7 @@ $main_template = <<<END
 
 <body>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" cellspacing="0" cellpadding="0">
   <tr>
     <td><div style="background-image:url(images/head_left.jpg); background-repeat:no-repeat; background-position:right; height:246px"></div></td>
     <td><div style="background-image:url(images/head_right.jpg); background-repeat:no-repeat; background-position:left; height:246px"></div></td>

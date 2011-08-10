@@ -1,4 +1,5 @@
 <?php
+$title = "Elite Qigong";
 $main_template = <<<END
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,6 +40,7 @@ $main_template = <<<END
 
     <div id="flower">
         <div id="content">
+            <div id="welcome">{{title}}</div>
     	    {{{content}}}
         </div>
     </div> 

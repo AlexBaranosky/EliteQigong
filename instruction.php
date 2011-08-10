@@ -5,9 +5,7 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Instruction",
 	'content' => <<<END
-<div id="welcome">Instruction</div>
-      <p><br/>
-        Instruction is provided in seminars for special groups and private lessons to individuals.  <br/><br/>
+      <p>Instruction is provided in seminars for special groups and private lessons to individuals.  <br/><br/>
                 
         The Curriculum available to be used in classes is vast but the focus is on what is best for the student.  In general, the principle of "less is more" is applicable for most students.  Students get the best benefits by learning less and practicing more which allows them to gain the depth of skill required to get the benefits from their practice.  The Shaolin Arts have such a profound depth that gaining skill in a single technique or skill can be enough to allow a student to realize seemingly limitless benefits in their lives.  All students must agree to keep <a href="more_info.html">the 10 Shaolin Laws.</a><br/><br/>
                 

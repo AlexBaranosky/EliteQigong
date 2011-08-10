@@ -5,7 +5,6 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Books",
 	'content' => <<<END
-<div id="welcome">Books</div>
       <p><br />
         The Wonders of Chi Kung:  Relieving Stress and Unlocking Glowing Health and Vitality, Third Edition, By Anthony Spinicchia<br/>
       </p>

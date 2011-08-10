@@ -5,8 +5,6 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Chi Kung",
 	'content' => <<<END
-<div id="welcome">Chi Kung</div>
-
 <p>Chi Kung, also known as Qigong, is a family of Energy Arts that have been practiced since ancient times to the present for different purposes.  Yoga, when practiced as originally intended, is an example of an Energy Art.  Chi Kung has been practiced around the world in different cultures in different manners.  Chi Kung has been practiced in China for thousands of years. Different types of Chi Kung can be very different in methodology and results.</p>
 
 <p>Shaolin Chi Kung is the type of Chi Kung that was developed and refined at the world famous Shaolin Temple located in Central China.  The original Shaolin Temple, an Imperial Temple where the Emperor would go to pray once a year, was visited about 1500 years ago by the famous Indian Prince, Bodhidharma (also known as Damo) who introduced the famous 18 Lohan Hands, as profound type of Chi Kung.  The purpose of this Chi Kung at that time was to enhance the spiritual cultivation of monks at the Temple.</p>

@@ -5,7 +5,6 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Announcements",
 	'content' => <<<END
-<div id="welcome">Announcements</div>
 END
 );
 

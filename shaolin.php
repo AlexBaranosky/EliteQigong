@@ -5,8 +5,6 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Shaolin",
 	'content' => <<<END
-<div id="welcome">Shaolin</div>
-      
 <p>The Shaolin Temple, made famous in the West by Television and Movies was very real and significant in the history of China.  The original Temple was located on Shaolin Mountain in Central China and was in fact an Imperial Temple, sponsored by the Emperor.  Once a year the Emperor would journey to Shaolin to pray on behalf of the people.  Later additional temples were established in Southern China.</p>
 
 <p>Shaolin was an exclusive temple only accessible by special people.   It was a gathering place for many of the most accomplished people in the Kingdom.  Generals, royalty and people of special accomplishment would gather at Shaolin to cultivate spiritually.  This special gathering also allowed for the opportunity to refine special Arts to incredibly high levels.  The Masters and Generals would compare techniques, strategies and experiences to refine them in an objective and methodical manner over the centuries.  This University-like setting resulted in the Arts practiced there to be known throughout the literature in China as the "Greatest Arts".</p>

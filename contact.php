@@ -5,7 +5,6 @@ include_once('main_template.php');
 $dataForTemplate = array(
 	'title' => "Contact",
 	'content' => <<<END
-<div id="welcome">Contact</div><br />
    <p><em></em></p>
 <p>To contact Sifu Anthony Spinicchia with questions please fill out the form below and you will be contacted ASAP. Your information will not be shared with anyone.</p>
         <form id="form1" name="form1" method="post" action="/cgi-sys/formmail.pl">  

@@ -3,7 +3,7 @@ include_once('mustache.php');
 include_once('main_template.php');
 
 $dataForTemplate = array(
-	'title' => "Elite Shaolin",
+	'title' => "Thank You",
 	'content' => <<<END
 <div id="welcome">Thank you!</div><br/>
       <p>&nbsp;</p>

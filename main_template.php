@@ -4,7 +4,7 @@ $main_template = <<<END
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
-  <title>{{title}}</title>
+  <title>{{title}} &ndash; Elite Qigong</title>
   <link href="css.css" rel="stylesheet" type="text/css" />
 </head>
 

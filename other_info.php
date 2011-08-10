@@ -3,7 +3,7 @@ include_once('mustache.php');
 include_once('main_template.php');
 
 $dataForTemplate = array(
-	'title' => "Elite Shaolin",
+	'title' => "Other Info",
 	'content' => <<<END
       <div id="welcome">Other Info</div><br/>
       <p align="center">All attendees and particpants in our courses, classes and consultations must agree to the requirements below. A document will be provided to participants to review again and sign. Please take the time to carefully review this document. Do not apply to participate in our courses if you do not agree to this. </p>

@@ -3,7 +3,7 @@ include_once('mustache.php');
 include_once('main_template.php');
 
 $dataForTemplate = array(
-	'title' => "Therapy",
+	'title' => "Chi Therapy",
 	'content' => <<<END
 <p align="center"><strong><em>Chi Therapy</em></strong><br />
       <em>Hope  for those with severe and chronic health conditions! </em><br />

@@ -3,10 +3,8 @@ include_once('mustache.php');
 include_once('main_template.php');
 
 $dataForTemplate = array(
-	'title' => "Elite Shaolin",
+	'title' => "Elite Qigong",
 	'content' => <<<END
-<div id="welcome">Welcome!</div>
-
 <p>Shaolin Wahnam Chi Kung is the most remarkable and practical Art in the world. &nbsp;Probably more important to you, is that it can make a meaningful improvement in your life.&nbsp; &nbsp;This is my goal as an instructor in the special Art and this website is dedicated to explaining why this is true and how you can learn more.&nbsp; However, only personal experience will allow you to fully appreciate this special and profound Art.</p>
 
 <p>The typical result of those that learn and practice our special gentle exercise is tangible improvement in their lives.&nbsp; The results vary according to the needs and aspirations of students.</p>
